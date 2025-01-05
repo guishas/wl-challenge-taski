@@ -18,14 +18,16 @@ class TasksList extends StatelessWidget {
           return const NoSearch();
         }
 
-        return ListView.separated(
-          shrinkWrap: true,
-          padding: EdgeInsets.zero,
-          itemCount: state.tasks.length,
-          itemBuilder: (context, index) {
-            return SearchTaskCard(task: state.tasks[index]);
-          },
-          separatorBuilder: (context, index) => const SizedBox(height: 10),
+        return Flexible(
+          child: ListView.separated(
+            shrinkWrap: true,
+            padding: EdgeInsets.zero,
+            itemCount: state.tasks.length,
+            itemBuilder: (context, index) {
+              return SearchTaskCard(task: state.tasks[index]);
+            },
+            separatorBuilder: (context, index) => const SizedBox(height: 10),
+          ),
         );
       },
     );
