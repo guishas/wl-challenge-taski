@@ -2,7 +2,7 @@
 
 Welcome to my submission for the Mobile Code Challenge! This application is a **Task Manager** built using Flutter. The app is designed with an **offline-first** approach and follows the provided layout prototype below.
 
-(Layout)[https://www.figma.com/design/RPnpIHgvIKobI7LieqNCcw/Taski-To-Do?node-id=0-1&p=f&t=Ep1FRGrxp9zdNcgJ-0]
+[Layout](https://www.figma.com/design/RPnpIHgvIKobI7LieqNCcw/Taski-To-Do?node-id=0-1&p=f&t=Ep1FRGrxp9zdNcgJ-0)
 
 ## 📬 Submission Details
 * **Author:** Guilherme Lunetta
